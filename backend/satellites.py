@@ -13,7 +13,7 @@ def get_satellite_positions():
     t = ts.now()
     
     # Fetch TLE data from CelesTrak
-    response = requests.get(CELESTRAK_URL)
+   //
     response.raise_for_status()
     
     # Parse TLE data into a list of lines
